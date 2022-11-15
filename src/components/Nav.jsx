@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import fishcat from "../src/assets/fishcat.png";
+import fishcat from "../assets/fishcat.png";
 
 const Nav = () => {
   return (

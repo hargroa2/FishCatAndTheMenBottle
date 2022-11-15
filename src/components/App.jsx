@@ -1,7 +1,7 @@
 import "../styles/App.scss";
 import "../main";
 import "../fonts/P22 Johnston Underground Regular.ttf";
-import Nav from "../Nav.jsx";
+import Nav from "../components/Nav";
 
 function App() {
   return (
