@@ -26,6 +26,7 @@ body {
   background-color: black;
   letter-spacing: 3px;
   position: fixed;
+  z-index: 10;
 
   img {
     width: 92px;
@@ -65,4 +66,14 @@ body {
 .longshotvideo {
   width: 100vw;
   height: 99.5vh;
+  object-fit: cover;
+}
+
+.fishcatlogo {
+  width: 300px;
+  height: 150px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -190%);
 }
