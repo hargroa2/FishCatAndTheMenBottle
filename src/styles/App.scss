@@ -25,6 +25,7 @@ body {
   align-items: center;
   background-color: black;
   letter-spacing: 3px;
+  position: fixed;
 
   img {
     width: 92px;
@@ -52,5 +53,17 @@ body {
     text-decoration: none;
     color: white;
     font-size: 12px;
+    transition: 0.3s all;
   }
+
+  .signup:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.longshotvideo {
+  min-width: 100vw;
+  height: 70vh;
+  margin-top: 10vw;
 }
