@@ -2,22 +2,20 @@ import "../styles/App.scss";
 import "../main";
 import "../fonts/P22 Johnston Underground Regular.ttf";
 import Nav from "../components/Nav";
+import fishcatvid2 from "../assets/fishcatvid2.mp4";
 
 function App() {
   return (
     <div>
       <Nav />
-      <iframe
-        width="958"
-        height="539"
-        src="https://www.youtube.com/embed/XUd2S8a2ChQ"
-        title="Catfish and the Bottlemen - Longshot"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+      <video
+        src={fishcatvid2}
         className="longshotvideo"
-        autoplay
-      ></iframe>
+        autoPlay
+        loop
+        type="video/mp4"
+        muted
+      ></video>
     </div>
   );
 }
