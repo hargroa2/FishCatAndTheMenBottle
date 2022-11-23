@@ -16,7 +16,7 @@ function App() {
         type="video/mp4"
         muted
       ></video>
-
+      <div></div>
       <img src={fishcat} alt="Logo" className="fishcatlogo" />
     </div>
   );
