@@ -3,6 +3,7 @@ import "../main";
 import "../fonts/P22 Johnston Underground Regular.ttf";
 import Nav from "../components/Nav";
 import fishcat from "../assets/fishcat.png";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         muted
       ></video>
       <img src={fishcat} alt="Logo" className="fishcatlogo" />
+      <Footer />
     </div>
   );
 }
