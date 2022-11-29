@@ -80,13 +80,30 @@ body {
   transform: translate(-50%, -190%);
 }
 
-.footer {
+footer {
   width: 100vw;
-  height: 81px;
+  padding: 15px 0;
+  font-size: 8px;
   background-color: black;
   border-top: 2px solid white;
   position: fixed;
   bottom: 0;
   left: 0;
   letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.term {
+  margin-right: 12px;
+}
+
+.terms {
+  color: white;
+  text-decoration: none;
+  margin: 0 3px;
+}
+
+.footer-spacers {
+  color: white;
 }
