@@ -1,14 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFacebookF, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaYoutube,
+  FaSpotify,
+  FaApple,
+} from "react-icons/fa";
+import { TiSocialInstagram } from "react-icons/ti";
 
 const Footer = () => {
   return (
     <div>
       <footer>
         <div className="icons">
-          <FaFacebookF color="white" />
-          <FaTwitter color="white" />
+          <FaFacebookF />
+          <FaTwitter />
+          <TiSocialInstagram />
+          <FaYoutube />
+          <FaSpotify />
+          <FaApple />
         </div>
         <div className="term">
           <Link to="#" className="terms">
