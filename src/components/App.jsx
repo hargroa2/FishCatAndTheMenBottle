@@ -9,7 +9,7 @@ function App() {
     <div>
       <Nav />
       <video
-        src="https://www.dropbox.com/s/1pncjztgtx3sucx/fishcatvid3.mp4?raw=1"
+        src="https://www.dropbox.com/s/8lz6ohjxgf7y003/fishcatvid.mp4?dl=0&raw=1"
         className="longshotvideo"
         autoPlay
         loop
