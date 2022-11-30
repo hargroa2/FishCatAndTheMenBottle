@@ -98,10 +98,14 @@ footer {
   font-size: 15px;
   margin-left: 15px;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .term {
   margin-right: 12px;
+  display: flex;
+  align-items: center;
 }
 
 .terms {
