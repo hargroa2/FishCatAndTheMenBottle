@@ -8,15 +8,22 @@ import {
   FaApple,
 } from "react-icons/fa";
 import { TiSocialInstagram } from "react-icons/ti";
+import { IconContext } from "react-icons";
 
 const Footer = () => {
   return (
     <div>
       <footer>
         <div className="icons">
-          <FaFacebookF />
-          <FaTwitter />
-          <TiSocialInstagram />
+          <IconContext.Provider value={{ className: "icon-style" }}>
+            <FaFacebookF />
+          </IconContext.Provider>
+          <IconContext.Provider value={{ className: "icon-style" }}>
+            <FaTwitter />
+          </IconContext.Provider>
+          <IconContext.Provider value={{ className: "icon-style" }}>
+            <TiSocialInstagram />
+          </IconContext.Provider>
           <FaYoutube />
           <FaSpotify />
           <FaApple />
