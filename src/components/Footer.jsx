@@ -24,9 +24,15 @@ const Footer = () => {
           <IconContext.Provider value={{ className: "icon-style" }}>
             <TiSocialInstagram />
           </IconContext.Provider>
-          <FaYoutube />
-          <FaSpotify />
-          <FaApple />
+          <IconContext.Provider value={{ className: "icon-style" }}>
+            <FaYoutube />
+          </IconContext.Provider>
+          <IconContext.Provider value={{ className: "icon-style" }}>
+            <FaSpotify />
+          </IconContext.Provider>
+          <IconContext.Provider value={{ className: "icon-style" }}>
+            <FaApple />
+          </IconContext.Provider>
         </div>
         <div className="term">
           <Link to="#" className="terms">
