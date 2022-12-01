@@ -16,22 +16,34 @@ const Footer = () => {
       <footer>
         <div className="icons">
           <IconContext.Provider value={{ className: "icon-style" }}>
-            <FaFacebookF />
+            <Link to="#">
+              <FaFacebookF />
+            </Link>
           </IconContext.Provider>
           <IconContext.Provider value={{ className: "icon-style" }}>
-            <FaTwitter />
+            <Link to="#">
+              <FaTwitter />
+            </Link>
           </IconContext.Provider>
           <IconContext.Provider value={{ className: "icon-style" }}>
-            <TiSocialInstagram />
+            <Link to="#">
+              <TiSocialInstagram />
+            </Link>
           </IconContext.Provider>
           <IconContext.Provider value={{ className: "icon-style" }}>
-            <FaYoutube />
+            <Link to="#">
+              <FaYoutube />
+            </Link>
           </IconContext.Provider>
           <IconContext.Provider value={{ className: "icon-style" }}>
-            <FaSpotify />
+            <Link to="#">
+              <FaSpotify />
+            </Link>
           </IconContext.Provider>
           <IconContext.Provider value={{ className: "icon-style" }}>
-            <FaApple />
+            <Link to="#">
+              <FaApple />
+            </Link>
           </IconContext.Provider>
         </div>
         <div className="term">

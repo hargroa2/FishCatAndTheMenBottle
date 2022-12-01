@@ -10,7 +10,7 @@ function App() {
     <div>
       <Nav />
       <video
-        src="https://www.dropbox.com/s/8lz6ohjxgf7y003/fishcatvid.mp4?dl=0&raw=1"
+        src="https://www.dropbox.com/s/8lz6ohjxgf7y003/fishcatvid.mp4?raw=1"
         className="longshotvideo"
         autoPlay
         loop
@@ -19,6 +19,11 @@ function App() {
       ></video>
       <img src={fishcat} alt="Logo" className="fishcatlogo" />
       <Footer />
+      <div className="album-covers">
+        <img src="#" alt="The Balance" />
+        <img src="#" alt="The Ride" />
+        <img src="#" alt="The Balcony" />
+      </div>
     </div>
   );
 }
