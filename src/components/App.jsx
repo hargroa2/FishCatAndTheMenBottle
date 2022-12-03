@@ -17,7 +17,6 @@ function App() {
         type="video/mp4"
         muted
       ></video>
-
       <img src={fishcat} alt="Logo" className="fishcatlogo" />
       <Footer />
       <div className="album-covers">
