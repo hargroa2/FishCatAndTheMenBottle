@@ -83,23 +83,43 @@ body {
   height: 150px;
   margin-top: 10px;
   z-index: 9;
-  // position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -190%);
-}
-
-.album-covers {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translate(200%, -445%);
+}
+
+.album-covers {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
   z-index: 9;
-  transform: translate(0%, -150%);
+  transform: translate(0%, -190%);
 }
 
 .albums {
   width: 290px;
   border: 2px solid white;
+  margin-bottom: 20px;
+}
+
+.listen-link {
+  border: 2px solid white;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px 6px 15px;
+  font-size: 17px;
+  transition: 0.3s all;
+  width: 55px;
+  margin-left: 100px;
+}
+
+.listen-link:hover {
+  background-color: white;
+  color: black;
 }
 
 // ====== FOOTER ======
@@ -110,6 +130,7 @@ footer {
   background-color: black;
   border-top: 2px solid white;
   position: fixed;
+  z-index: 10;
   bottom: 0;
   left: 0;
   letter-spacing: 1px;

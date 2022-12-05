@@ -25,11 +25,17 @@ function App() {
       <Footer />
       <div className="album-covers">
         <img src={balance} alt="The Balance" className="albums" />
-        <Link to="">LISTEN</Link>
         <img src={ride} alt="The Ride" className="albums" />
-        <Link to="">LISTEN</Link>
         <img src={balcony} alt="The Balcony" className="albums" />
-        <Link to="">LISTEN</Link>
+        <Link to="" className="listen-link">
+          LISTEN
+        </Link>
+        <Link to="" className="listen-link">
+          LISTEN
+        </Link>
+        <Link to="" className="listen-link">
+          LISTEN
+        </Link>
       </div>
     </div>
   );
