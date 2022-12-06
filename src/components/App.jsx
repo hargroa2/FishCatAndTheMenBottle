@@ -71,7 +71,7 @@ function App() {
         {/* <img src={ride} alt="The Ride" className="albums" /> */}
         {/* <img src={balcony} alt="The Balcony" className="albums" /> */}
       </div>
-      <div>
+      <div className="link-box">
         <Link to="" className="listen-link">
           LISTEN
         </Link>
