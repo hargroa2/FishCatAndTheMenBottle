@@ -8,6 +8,9 @@ import ride from "../assets/ride.png";
 import balance from "../assets/balance.png";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import balanceback from "../assets/balanceback.png";
+import rideback from "../assets/rideback.png";
+import balconyback from "../assets/balconyback.png";
 
 function App() {
   return (
@@ -22,11 +25,53 @@ function App() {
         muted
       ></video>
       <img src={fishcat} alt="Logo" className="fishcatlogo" />
-      <Footer />
       <div className="album-covers">
-        <img src={balance} alt="The Balance" className="albums" />
-        <img src={ride} alt="The Ride" className="albums" />
-        <img src={balcony} alt="The Balcony" className="albums" />
+        <div className="flip-box">
+          <div className="flip-box-inner">
+            <div className="flip-box-front">
+              <img src={balance} alt="The Balance" className="albums" />
+            </div>
+            <div className="flip-box-back">
+              <img
+                src={balanceback}
+                alt="balance song list"
+                className="albums"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="flip-box">
+          <div className="flip-box-inner">
+            <div className="flip-box-front">
+              <img src={ride} alt="The Ride" className="albums" />
+            </div>
+            <div className="flip-box-back">
+              <img src={rideback} alt="balance song list" className="albums" />
+            </div>
+          </div>
+        </div>
+
+        <div className="flip-box">
+          <div className="flip-box-inner">
+            <div className="flip-box-front">
+              <img src={balcony} alt="The Balcony" className="albums" />
+            </div>
+            <div className="flip-box-back">
+              <img
+                src={balconyback}
+                alt="balance song list"
+                className="albums"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* <img src={balance} alt="The Balance" className="albums" /> */}
+        {/* <img src={ride} alt="The Ride" className="albums" /> */}
+        {/* <img src={balcony} alt="The Balcony" className="albums" /> */}
+      </div>
+      <div>
         <Link to="" className="listen-link">
           LISTEN
         </Link>
@@ -37,6 +82,7 @@ function App() {
           LISTEN
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }
