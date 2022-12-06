@@ -136,7 +136,7 @@ body {
 
 .flip-box {
   display: inline-block;
-  transform: translateY(-680px);
+  transform: translateY(-380px);
 }
 
 .flip-box-inner {
@@ -163,10 +163,8 @@ body {
 //======
 
 .link-box {
-  transform: translate(10px, -352px);
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  transform: translate(-250px, -52px);
+  margin-left: 140px;
 }
 
 .listen-link {
@@ -178,12 +176,23 @@ body {
   font-size: 17px;
   transition: 0.3s all;
   width: 55px;
-  margin-left: 100px;
 }
 
 .listen-link:hover {
   background-color: white;
   color: black;
+}
+
+#link-1 {
+  margin-left: 210px;
+}
+
+#link-2 {
+  margin-left: 270px;
+}
+
+#link-3 {
+  margin-left: 270px;
 }
 
 // ====== FOOTER ======
