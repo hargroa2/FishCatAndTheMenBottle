@@ -67,9 +67,6 @@ function App() {
           </div>
         </div>
 
-        {/* <img src={balance} alt="The Balance" className="albums" /> */}
-        {/* <img src={ride} alt="The Ride" className="albums" /> */}
-        {/* <img src={balcony} alt="The Balcony" className="albums" /> */}
         <div className="link-box">
           <Link to="" className="listen-link" id="link-1">
             LISTEN
