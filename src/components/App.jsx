@@ -63,6 +63,7 @@ function App() {
                 alt="balance song list"
                 className="albums"
               />
+              <div></div>
             </div>
           </div>
         </div>
