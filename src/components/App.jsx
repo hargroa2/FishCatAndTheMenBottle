@@ -65,7 +65,6 @@ function App() {
               />
             </div>
           </div>
-          <div></div>
         </div>
 
         <div className="link-box">
