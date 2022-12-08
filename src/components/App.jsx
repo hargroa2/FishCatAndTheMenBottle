@@ -68,13 +68,13 @@ function App() {
         </div>
 
         <div className="link-box">
-          <Link to="" className="listen-link" id="link-1">
+          <Link to="#" className="listen-link" id="link-1">
             LISTEN
           </Link>
-          <Link to="" className="listen-link" id="link-2">
+          <Link to="#" className="listen-link" id="link-2">
             LISTEN
           </Link>
-          <Link to="" className="listen-link" id="link-3">
+          <Link to="#" className="listen-link" id="link-3">
             LISTEN
           </Link>
         </div>
