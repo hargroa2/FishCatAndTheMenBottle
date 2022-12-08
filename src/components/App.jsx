@@ -79,7 +79,6 @@ function App() {
           </Link>
         </div>
       </div>
-      <div></div>
       <Footer />
     </div>
   );
