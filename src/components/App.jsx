@@ -14,7 +14,7 @@ import balconyback from "../assets/balconyback.png";
 
 function App() {
   return (
-    <div>
+    <div id="container-div">
       <Nav />
       <video
         src="https://www.dropbox.com/s/8lz6ohjxgf7y003/fishcatvid.mp4?raw=1"
