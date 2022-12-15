@@ -72,7 +72,7 @@ function App() {
             LISTEN
           </Link>
           <Link to="#" className="listen-link" id="link-2">
-            z LISTEN
+            LISTEN
           </Link>
           <Link to="#" className="listen-link" id="link-3">
             LISTEN
