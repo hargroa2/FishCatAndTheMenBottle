@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { TiSocialInstagram } from "react-icons/ti";
 import { IconContext } from "react-icons";
-<div></div>;
+
 const Footer = () => {
   return (
     <div>
