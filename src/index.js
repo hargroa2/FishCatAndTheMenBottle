@@ -8,6 +8,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Lyrics from "./components/Lyrics";
 import Shop from "./components/Shop";
 import Signup from "./components/Signup";
+import Music from "./components/Music";
+import Clothing from "./components/Clothing";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +23,8 @@ root.render(
         <Route path="/lyrics" element={<Lyrics />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/clothing" element={<Clothing />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -1,11 +1,14 @@
 import React from "react";
 import Nav from "../components/Nav";
+import Footer from "./Footer";
+import NavShop from "./NavShop";
 
 const Shop = () => {
   return (
     <div>
-      <Nav />
+      <NavShop />
       SHOP
+      <Footer />
     </div>
   );
 };
