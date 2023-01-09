@@ -17,16 +17,10 @@ const NavShop = () => {
             <Link to="/clothing">CLOTHING</Link>
           </li>
           <li>
-            <Link to="/video">VIDEO</Link>
+            <Link to="/accessories">ACCESSORIES</Link>
           </li>
           <li>
-            <Link to="/photos">PHOTOS</Link>
-          </li>
-          <li>
-            <Link to="/lyrics">LYRICS</Link>
-          </li>
-          <li>
-            <Link to="/shop">SHOP</Link>
+            <Link to="/">OFFICIAL SITE</Link>
           </li>
         </ul>
         <Link to="/signup" className="signup">

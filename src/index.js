@@ -10,6 +10,7 @@ import Shop from "./components/Shop";
 import Signup from "./components/Signup";
 import Music from "./components/Music";
 import Clothing from "./components/Clothing";
+import Accessories from "./components/Accessories";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,6 +26,7 @@ root.render(
         <Route path="/signup" element={<Signup />} />
         <Route path="/music" element={<Music />} />
         <Route path="/clothing" element={<Clothing />} />
+        <Route path="/accessories" element={<Accessories />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
