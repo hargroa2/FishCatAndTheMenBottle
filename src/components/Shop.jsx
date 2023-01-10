@@ -8,7 +8,6 @@ const Shop = () => {
       <NavShop />
       SHOP
       <Footer />
-      <div></div>
     </div>
   );
 };
